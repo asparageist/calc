@@ -20,8 +20,8 @@ const multNums = multiply(number1, number2);
 const divNums = divide(number1, number2);
 const displayAdd = number1 + " + " + number2 + " = " + addNums + " \n";
 const displaySub = number1 + " - " + number2 + " = " + subNums + " \n";
-const displayMult = number1 + " * " + number2 + " = " + multNums + " \n";
-const displayDiv = number1 + " / " + number2 + " = " + divNums + " \n";
+const displayMult = `${number1} * ${number2} = ${multNums} \n`;
+const displayDiv = `${number1} / ${number2} = ${divNums} \n`;
 
 // user interface logic 
 
